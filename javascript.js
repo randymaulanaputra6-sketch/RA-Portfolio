@@ -1,6 +1,6 @@
 'use strict';
 /* ===== DATA (edit here) ===== */
-const EMAIL = ''; // isi email asli, mis. 'nama@domain.com'
+const EMAIL = 'randymaulanaputra6@gmail.com'; // isi email asli, mis. 'nama@domain.com'
 const PROJECTS = [
   { id: 'tapak-adventure', name: 'Tapak Adventure', desc: 'A cozy adventure game about exploring a mysterious island.',
     genre: ['Adventure', '3D'], engine: 'Godot Engine', platform: '—', status: 'Released',
@@ -33,8 +33,8 @@ const DEVLOGS = [
     thumb: '', excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] }
 ];
 const SOCIALS = [
-  { name: 'GitHub', desc: 'Explore my code', url: '', icon: '⌘' },
-  { name: 'itch.io', desc: 'Play my games', url: '', icon: '▶' },
+  { name: 'GitHub', desc: 'Explore my code', url: 'https://github.com/randymaulanaputra6-sketch?tab=repositories', icon: '⌘' },
+  { name: 'itch.io', desc: 'Play my games', url: 'https://ranzdev.itch.io', icon: '▶' },
   { name: 'TikTok / Devlog', desc: 'Watch my devlog', url: '', icon: '●' },
   { name: 'Email', desc: EMAIL || 'Belum diisi', url: EMAIL ? 'mailto:' + EMAIL : '', icon: '✉' }
 ];
