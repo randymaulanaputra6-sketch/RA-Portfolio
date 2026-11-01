@@ -2,10 +2,6 @@
 /* ===== DATA (edit here) ===== */
 const EMAIL = 'randymaulanaputra6@gmail.com'; // isi email asli, mis. 'nama@domain.com'
 const PROJECTS = [
-  { id: 'tapak-adventure', name: 'Tapak Adventure', desc: 'A cozy adventure game about exploring a mysterious island.',
-    genre: ['Adventure', '2D', '2D Platformer'], engine: 'Godot Engine', platform: '—', status: 'Released',
-    cover: 'assets/images/projects/tapak-adventure/TapakAdventure.png', screenshots: [],
-    overview: 'Tapak Adventure, permainan bergenre 2D platformer game yang mempunyai 30 level, memiliki sistem koin dan nyawa, serta musuh berupa slime bewarna merah yang bisa membuat mu memantul saat menginjak di atas nya.', features: [], tech: [], challenges: [], credits: [], links: [] },
   { id: 'sate-life', name: 'Sate Life', desc: 'Manage your own satay business and grow your shop!',
     genre: ['Simulation', 'Management'], engine: 'Godot Engine', platform: '—', status: 'In Development',
     cover: 'assets/images/projects/sate-life/cover.webp', screenshots: [],
@@ -13,7 +9,11 @@ const PROJECTS = [
   { id: 'farmer-homer', name: 'Farmer Homer', desc: 'A farming simulation game with a relaxing atmosphere.',
     genre: ['Simulation', 'Pixel Art'], engine: 'Godot Engine', platform: '—', status: 'On Hold',
     cover: 'assets/images/projects/farmer-homer/FarmerHomer.png', screenshots: [],
-    overview: 'Farmer Homer adalah game idle / clicker santai yang berfokus pada gameplay yang santai. Tanam berbagai jenis tanaman, panen hasilnya, kumpulkan uang, lalu tingkatkan kecepatan tumbuh dan pendapatan untuk membangun kebun yang semakin besar.', features: [], tech: [], challenges: [], credits: [], links: [] }
+    overview: 'Farmer Homer adalah game idle / clicker santai yang berfokus pada gameplay yang santai. Tanam berbagai jenis tanaman, panen hasilnya, kumpulkan uang, lalu tingkatkan kecepatan tumbuh dan pendapatan untuk membangun kebun yang semakin besar.', features: [], tech: [], challenges: [], credits: [], links: [] },
+  { id: 'tapak-adventure', name: 'Tapak Adventure', desc: 'A cozy adventure game about exploring a mysterious island.',
+    genre: ['Adventure', '2D', '2D Platformer'], engine: 'Godot Engine', platform: '—', status: 'Released',
+    cover: 'assets/images/projects/tapak-adventure/TapakAdventure.png', screenshots: [],
+    overview: 'Tapak Adventure, permainan bergenre 2D platformer game yang mempunyai 30 level, memiliki sistem koin dan nyawa, serta musuh berupa slime bewarna merah yang bisa membuat mu memantul saat menginjak di atas nya.', features: [], tech: [], challenges: [], credits: [], links: [] }
 ];
 const INFO = [['Role', 'Indie Game Developer'], ['Primary Engine', 'Godot Engine'], ['Primary Language', 'GDScript'],
   ['Currently Learning', 'C# dan .NET'], ['Brand', 'RA Production']];
@@ -30,6 +30,8 @@ const SKILLS = [
 const DEVLOG_CATS = ['Programming', 'Game Design', 'UI/UX', 'Development Progress', 'Bug Fixes', 'Behind the Scenes'];
 const DEVLOGS = [
   { id: 'd1', title: '[Placeholder] Judul devlog pertama', project: 'sate-life', cat: 'Development Progress', date: '2026-01-01',
+    thumb: '', excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] },
+  { id: 'd2', title: '[Placeholder] Judul devlog pertama', project: 'tapak-adventure', cat: 'Development Progress', date: '2026-01-01',
     thumb: '', excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] }
 ];
 const SOCIALS = [
