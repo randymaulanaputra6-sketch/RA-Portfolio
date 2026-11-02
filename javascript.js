@@ -4,7 +4,7 @@ const EMAIL = 'randymaulanaputra6@gmail.com'; // isi email asli, mis. 'nama@doma
 const PROJECTS = [
   { id: 'sate-life', name: 'Sate Life', desc: 'Manage your own satay business and grow your shop!',
     genre: ['Simulation', 'Management'], engine: 'Godot Engine', platform: '—', status: 'In Development',
-    cover: 'assets/images/projects/sate-life/cover.webp', screenshots: [],
+    cover: 'assets/images/projects/sate-life/SateLife.jpg', screenshots: [],
     overview: '[Isi ringkasan game]', features: [], tech: [], challenges: [], credits: [], links: [] },
   { id: 'farmer-homer', name: 'Farmer Homer', desc: 'A farming simulation game with a relaxing atmosphere.',
     genre: ['Simulation', 'Pixel Art'], engine: 'Godot Engine', platform: '—', status: 'On Hold',
@@ -15,8 +15,8 @@ const PROJECTS = [
     cover: 'assets/images/projects/tapak-adventure/TapakAdventure.png', screenshots: [],
     overview: 'Tapak Adventure, permainan bergenre 2D platformer game yang mempunyai 30 level, memiliki sistem koin dan nyawa, serta musuh berupa slime bewarna merah yang bisa membuat mu memantul saat menginjak di atas nya.', features: [], tech: [], challenges: [], credits: [], links: [] }
 ];
-const INFO = [['Role', 'Indie Game Developer'], ['Primary Engine', 'Godot Engine'], ['Primary Language', 'GDScript'],
-  ['Currently Learning', 'C# dan .NET'], ['Brand', 'RA Production']];
+const INFO = [['Role', 'Solo Game Developer'], ['Primary Engine', 'Godot Engine'], ['Primary Language', 'GDScript'],
+  ['Currently Learning', 'C#'], ['Brand', 'RA Production']];
 const SKILLS = [
   { name: 'Godot Engine', cat: 'Game Development', level: 'Primary', icon: '◆', desc: 'Game engine utama.' },
   { name: 'GDScript', cat: 'Game Development', level: 'Primary', icon: '</>', desc: 'Bahasa utama untuk gameplay.' },
