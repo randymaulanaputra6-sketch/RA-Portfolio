@@ -3,15 +3,15 @@
 const EMAIL = 'randymaulanaputra6@gmail.com'; // isi email asli, mis. 'nama@domain.com'
 const PROJECTS = [
   { id: 'sate-life', name: 'Sate Life', desc: 'Manage your own satay business and grow your shop!',
-    genre: ['Simulation', 'Management'], engine: 'Godot Engine', platform: '—', status: 'In Development',
+    genre: ['Simulation', 'Management', 'Android', 'Windows'], engine: 'Godot Engine', platform: '—', status: 'In Development',
     cover: 'assets/images/projects/sate-life/SateLife.jpg', screenshots: [],
     overview: '[Isi ringkasan game]', features: [], tech: [], challenges: [], credits: [], links: [] },
   { id: 'farmer-homer', name: 'Farmer Homer', desc: 'A farming simulation game with a relaxing atmosphere.',
-    genre: ['Simulation', 'Pixel Art'], engine: 'Godot Engine', platform: '—', status: 'On Hold',
+    genre: ['Simulation', 'Pixel Art', 'Android'], engine: 'Godot Engine', platform: '—', status: 'On Hold',
     cover: 'assets/images/projects/farmer-homer/FarmerHomer.png', screenshots: [],
     overview: 'Farmer Homer adalah game idle / clicker santai yang berfokus pada gameplay yang santai. Tanam berbagai jenis tanaman, panen hasilnya, kumpulkan uang, lalu tingkatkan kecepatan tumbuh dan pendapatan untuk membangun kebun yang semakin besar.', features: [], tech: [], challenges: [], credits: [], links: [] },
   { id: 'tapak-adventure', name: 'Tapak Adventure', desc: 'A cozy adventure game about exploring a mysterious island.',
-    genre: ['Adventure', '2D', '2D Platformer'], engine: 'Godot Engine', platform: '—', status: 'Released',
+    genre: ['Adventure', '2D', '2D Platformer', 'Android'], engine: 'Godot Engine', platform: '—', status: 'Released',
     cover: 'assets/images/projects/tapak-adventure/TapakAdventure.png', screenshots: [],
     overview: 'Tapak Adventure, permainan bergenre 2D platformer game yang mempunyai 30 level, memiliki sistem koin dan nyawa, serta musuh berupa slime bewarna merah yang bisa membuat mu memantul saat menginjak di atas nya.', features: [], tech: [], challenges: [], credits: [], links: [] }
 ];
@@ -24,8 +24,7 @@ const SKILLS = [
   { name: 'UI Development', cat: 'Game Development', level: 'Primary', icon: '▣', desc: 'Antarmuka dalam game.' },
   { name: 'VS Code', cat: 'Development Tools', level: 'Familiar', icon: '✎', desc: 'Code editor.' },
   { name: 'Git & GitHub', cat: 'Development Tools', level: 'Familiar', icon: '⑂', desc: 'Version control.' },
-  { name: 'C#', cat: 'Currently Learning', level: 'Learning', icon: '#', desc: 'Sedang dipelajari.' },
-  { name: '.NET', cat: 'Currently Learning', level: 'Learning', icon: '●', desc: 'Sedang dipelajari.' }
+  { name: 'C#', cat: 'Currently Learning', level: 'Learning', icon: '#', desc: 'Sedang dipelajari.' }
 ];
 const DEVLOG_CATS = ['Programming', 'Game Design', 'UI/UX', 'Development Progress', 'Bug Fixes', 'Behind the Scenes'];
 const DEVLOGS = [
