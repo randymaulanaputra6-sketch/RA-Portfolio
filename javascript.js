@@ -29,9 +29,11 @@ const SKILLS = [
 const DEVLOG_CATS = ['Programming', 'Game Design', 'UI/UX', 'Development Progress', 'Bug Fixes', 'Behind the Scenes'];
 const DEVLOGS = [
   { id: 'd1', title: '[Placeholder] Judul devlog pertama', project: 'sate-life', cat: 'Development Progress', date: '2026-01-01',
-    thumb: '', excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] },
+  thumb: 'assets/images/projects/sate-life/SateLife.jpg', url: 'https://youtu.be/spmMvDHAFeQ', // isi link YouTube
+  excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] },
   { id: 'd2', title: '[Placeholder] Judul devlog pertama', project: 'tapak-adventure', cat: 'Development Progress', date: '2026-01-01',
-    thumb: '', excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] }
+  thumb: 'assets/images/projects/tapak-adventure/TapakAdventure.png', url: 'https://youtu.be/spmMvDHAFeQ', // isi link YouTube
+  excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] }
 ];
 const SOCIALS = [
   { name: 'GitHub', desc: 'Explore my code', url: 'https://github.com/randymaulanaputra6-sketch?tab=repositories', icon: '⌘' },
@@ -142,13 +144,26 @@ function initSkills() {
 let dShown = PAGE;
 const fmtDate = d => new Date(d).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
 const projName = id => (PROJECTS.find(p => p.id === id) || {}).name || id;
+function normalizeUrl(raw) {
+  const v = (raw || '').trim();
+  if (!v) return '';
+  const full = /^https?:\/\//i.test(v) ? v : 'https://' + v.replace(/^\/+/, '');
+  try { return new URL(full).href; } catch { return ''; }
+}
+function devlogThumb(d) {
+  if (!d.thumb) return null;
+  const image = img(d.thumb, 'Thumbnail ' + d.title);
+  const href = normalizeUrl(d.url);
+  if (!href) return image;
+  return el('a', { class: 'cover-link', href, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Buka link: ' + d.title }, image);
+}
 function renderDevlog(reset = true) {
   if (reset) dShown = PAGE;
   const q = $('#dSearch').value.trim().toLowerCase(), pr = $('#dProject').value, c = $('#dCat').value;
   const list = DEVLOGS.filter(d => d.title.toLowerCase().includes(q) && (!pr || d.project === pr) && (!c || d.cat === c))
     .sort((a, b) => b.date.localeCompare(a.date));
   $('#dGrid').replaceChildren(...list.slice(0, dShown).map(d => el('article', { class: 'card' },
-    el('div', { class: 'cover' }, d.thumb ? img(d.thumb, 'Thumbnail ' + d.title) : null),
+    el('div', { class: 'cover' }, devlogThumb(d)),
     el('div', { class: 'body' }, el('span', { class: 'meta', text: fmtDate(d.date) + ' — ' + projName(d.project) }),
       el('h3', { text: d.title }), el('p', { text: d.excerpt }), el('span', { class: 'tag', text: d.cat })),
     el('button', { class: 'btn', 'data-id': d.id, text: 'Read More' }))));
