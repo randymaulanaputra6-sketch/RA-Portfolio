@@ -28,11 +28,8 @@ const SKILLS = [
 ];
 const DEVLOG_CATS = ['Programming', 'Game Design', 'UI/UX', 'Development Progress', 'Bug Fixes', 'Behind the Scenes'];
 const DEVLOGS = [
-  { id: 'd1', title: '[Placeholder] Judul devlog pertama', project: 'sate-life', cat: 'Development Progress', date: '2026-01-01',
-  thumb: 'assets/images/projects/sate-life/SateLife.jpg', url: 'https://youtu.be/spmMvDHAFeQ', // isi link YouTube
-  excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] },
-  { id: 'd2', title: '[Placeholder] Judul devlog pertama', project: 'tapak-adventure', cat: 'Development Progress', date: '2026-01-01',
-  thumb: 'assets/images/projects/tapak-adventure/TapakAdventure.png', url: 'https://youtu.be/spmMvDHAFeQ', // isi link YouTube
+  { id: 'd1', title: 'Membuat Menu Settings Baru', project: 'sate-life', cat: 'Development Progress', date: '11-09-2026',
+  thumb: 'assets/images/projects/sate-life/SateLife.jpg', url: '', // isi link YouTube
   excerpt: 'Contoh artikel. Ganti dengan tulisan asli Anda.', body: ['[Isi artikel di sini.]'], images: [] }
 ];
 const SOCIALS = [
