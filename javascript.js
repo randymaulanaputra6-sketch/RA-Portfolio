@@ -35,7 +35,7 @@ const DEVLOGS = [
 const SOCIALS = [
   { name: 'GitHub', desc: 'Explore my code', url: 'https://github.com/randymaulanaputra6-sketch?tab=repositories', icon: '⌘' },
   { name: 'itch.io', desc: 'Play my games', url: 'https://ranzdev.itch.io', icon: '▶' },
-  { name: 'TikTok', desc: 'Watch my devlog', url: '', icon: '●' },
+  { name: 'TikTok', desc: 'Watch my devlog', url: 'https://www.tiktok.com/@ranzzdev', icon: '●' },
   { name: 'YouTube / Devlog', desc: 'Watch my devlog', url: 'https://www.youtube.com/@randymaulanaputra6893', icon: '●'},
   { name: 'Whatsapp', desc: 'Collab? here!', url: 'https://wa.link/nqt8ov', icon: '✉'},
   { name: 'Email', desc: EMAIL || 'Belum diisi', url: EMAIL ? 'mailto:' + EMAIL : '', icon: '✉' }
