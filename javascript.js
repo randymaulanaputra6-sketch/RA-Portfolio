@@ -38,7 +38,7 @@ const DEVLOGS = [
   url: '',
   excerpt: 'Mengembangkan ulang menu pengaturan Sate Life menjadi scene fullscreen dengan sistem konfigurasi terpusat, penyimpanan otomatis, dan integrasi pengaturan grafis Sky3D.',
   body: [
-    'Pada tahap pengembangan ini, gw memutuskan untuk melakukan perombakan pada sistem pengaturan Sate Life. Sebelumnya, menu Settings hanya tersedia dalam bentuk popup yang muncul di dalam permainan. Sekarang, menu tersebut dikembangkan menjadi scene tersendiri dengan tampilan fullscreen agar navigasi dan pengelolaan pengaturan menjadi lebih terstruktur.',
+    'Pada tahap pengembangan ini, saya memutuskan untuk melakukan perombakan pada sistem pengaturan Sate Life. Sebelumnya, menu Settings hanya tersedia dalam bentuk popup yang muncul di dalam permainan. Sekarang, menu tersebut dikembangkan menjadi scene tersendiri dengan tampilan fullscreen agar navigasi dan pengelolaan pengaturan menjadi lebih terstruktur.',
 
     'Menu Settings baru dibagi menjadi beberapa kategori utama, yaitu Audio, Gameplay, dan Grafik. Kategori Audio menyediakan pengaturan volume musik dan efek suara. Gameplay menyediakan pengaturan sensitivitas kamera serta tampilan petunjuk interaksi. Sementara itu, kategori Grafik mencakup preset kualitas visual, batas FPS, fullscreen, serta pengaturan lingkungan permainan.',
 
@@ -46,13 +46,13 @@ const DEVLOGS = [
 
     'Sistem penyimpanan ini memungkinkan pengaturan tetap dipertahankan meskipun pemain berpindah scene atau menjalankan ulang permainan. Setiap perubahan pada slider, checkbox, preset grafik, maupun batas FPS akan langsung diterapkan sesuai jenis pengaturannya dan disimpan ke dalam konfigurasi lokal.',
 
-    'Untuk pengaturan grafis, gw mengembangkan beberapa preset kualitas, yaitu Low, Medium, High, Max, dan Custom. Setiap preset memiliki kombinasi pengaturan Sky, Clouds, Fog, dan Shadows yang berbeda. Selain itu, status checkbox dan tombol preset dibuat mengikuti konfigurasi terakhir sehingga tampilan menu tetap sinkron ketika dibuka kembali.',
+    'Untuk pengaturan grafis, saya mengembangkan beberapa preset kualitas, yaitu Low, Medium, High, Max, dan Custom. Setiap preset memiliki kombinasi pengaturan Sky, Clouds, Fog, dan Shadows yang berbeda. Selain itu, status checkbox dan tombol preset dibuat mengikuti konfigurasi terakhir sehingga tampilan menu tetap sinkron ketika dibuka kembali.',
 
     'Bagian yang cukup menantang adalah integrasi dengan plugin Sky3D. Awalnya, perubahan pengaturan lingkungan tidak memberikan efek apa pun ketika pemain kembali ke permainan. Setelah ditelusuri, masalahnya berasal dari pemisahan scene. Sky3D hanya tersedia di dalam scene World, sedangkan menu Settings dan Main Menu merupakan scene yang berbeda.',
 
     'Solusinya adalah memisahkan proses penyimpanan pengaturan dengan penerapan pengaturan ke lingkungan permainan. SettingsManager menyimpan seluruh preferensi pemain terlebih dahulu. Ketika scene World selesai dimuat, scene tersebut memanggil fungsi SettingsManager untuk menerapkan konfigurasi yang tersimpan ke node Sky3D. Dengan pendekatan ini, sistem tidak perlu membuat duplikasi Sky3D di Main Menu maupun Settings.',
 
-    'Pengembangan ini menjadi salah satu langkah penting dalam membangun arsitektur Sate Life yang lebih terorganisir. Selain memperbaiki tampilan menu, gw juga belajar bahwa pengelolaan data, siklus hidup scene, dan komunikasi antar sistem memiliki peran besar dalam pengembangan game. Menu Settings sekarang tidak hanya menjadi tempat untuk mengubah preferensi, tetapi juga bagian dari sistem konfigurasi terpusat yang dapat dikembangkan lebih lanjut.'
+    'Pengembangan ini menjadi salah satu langkah penting dalam membangun arsitektur Sate Life yang lebih terorganisir. Selain memperbaiki tampilan menu, saya juga belajar bahwa pengelolaan data, siklus hidup scene, dan komunikasi antar sistem memiliki peran besar dalam pengembangan game. Menu Settings sekarang tidak hanya menjadi tempat untuk mengubah preferensi, tetapi juga bagian dari sistem konfigurasi terpusat yang dapat dikembangkan lebih lanjut.'
   ],
   images: []
 }
