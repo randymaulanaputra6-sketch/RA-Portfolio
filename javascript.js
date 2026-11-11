@@ -4,15 +4,24 @@ const EMAIL = 'randymaulanaputra6@gmail.com'; // isi email asli, mis. 'nama@doma
 const PROJECTS = [
   { id: 'sate-life', name: 'Sate Life', desc: 'Manage your own satay business and grow your shop!',
     genre: ['Simulation', 'Management', 'Android', 'Windows'], engine: 'Godot Engine', platform: '—', status: 'In Development',
-    cover: 'assets/images/projects/sate-life/SateLife.jpg', screenshots: [],
+    cover: 'assets/images/projects/sate-life/SateLife.jpg',
+    hover: 'assets/images/projects/sate-life/SateLife.jpg',
+    url: 'https://ranzdev.itch.io/sate-life',
+    screenshots: [],
     overview: '[Isi ringkasan game]', features: [], tech: [], challenges: [], credits: [], links: [] },
   { id: 'farmer-homer', name: 'Farmer Homer', desc: 'A farming simulation game with a relaxing atmosphere.',
     genre: ['Simulation', 'Pixel Art', 'Android'], engine: 'Godot Engine', platform: '—', status: 'On Hold',
-    cover: 'assets/images/projects/farmer-homer/FarmerHomer.png', screenshots: [],
+    cover: 'assets/images/projects/farmer-homer/FarmerHomer.png',
+    hover: 'assets/images/projects/farmer-homer/FarmerHomer.png',
+    url: 'https://ranzdev.itch.io/farmer-homer',
+    screenshots: [],
     overview: 'Farmer Homer adalah game idle / clicker santai yang berfokus pada gameplay yang santai. Tanam berbagai jenis tanaman, panen hasilnya, kumpulkan uang, lalu tingkatkan kecepatan tumbuh dan pendapatan untuk membangun kebun yang semakin besar.', features: [], tech: [], challenges: [], credits: [], links: [] },
   { id: 'tapak-adventure', name: 'Tapak Adventure', desc: 'A cozy adventure game about exploring a mysterious island.',
     genre: ['Adventure', '2D', '2D Platformer', 'Android'], engine: 'Godot Engine', platform: '—', status: 'Released',
-    cover: 'assets/images/projects/tapak-adventure/TapakAdventure.png', screenshots: [],
+    cover: 'assets/images/projects/tapak-adventure/TapakAdventure.png',
+    hover: 'assets/images/projects/tapak-adventure/TapakAdventure.png',
+    url: 'https://ranzdev.itch.io/tapak-adventure',
+    screenshots: [],
     overview: 'Tapak Adventure, permainan bergenre 2D platformer game yang mempunyai 30 level, memiliki sistem koin dan nyawa, serta musuh berupa slime bewarna merah yang bisa membuat mu memantul saat menginjak di atas nya.', features: [], tech: [], challenges: [], credits: [], links: [] }
 ];
 const INFO = [['Role', 'Solo Game Developer'], ['Primary Engine', 'Godot Engine'], ['Primary Language', 'GDScript'],
@@ -118,9 +127,24 @@ function initReveal() {
 }
 
 /* ===== 3-5. PROJECTS ===== */
+function projectThumb(p) {
+  const main = img(p.cover, 'Cover game ' + p.name);
+  main.classList.add('cover-main');
+  const stack = el('div', { class: 'cover-stack' }, main);
+  if (p.hover) {
+    const alt = img(p.hover, '');
+    alt.classList.add('cover-alt');
+    alt.setAttribute('aria-hidden', 'true');
+    stack.append(alt);
+  }
+  const href = normalizeUrl(p.url);
+  if (!href) return stack;
+  return el('a', { class: 'cover-link', href, target: '_blank', rel: 'noopener noreferrer',
+    'aria-label': 'Buka halaman download ' + p.name }, stack);
+}
 function projectCard(p) {
   return el('article', { class: 'card' },
-    el('div', { class: 'cover' }, img(p.cover, 'Cover game ' + p.name)),
+    el('div', { class: 'cover' }, projectThumb(p)),
     el('div', { class: 'body' }, el('h3', { text: p.name }), el('p', { text: p.desc }),
       el('div', { class: 'tags' }, p.genre.map(g => el('span', { class: 'tag', text: g })),
         el('span', { class: 'badge ' + statusClass(p.status), text: p.status }))),

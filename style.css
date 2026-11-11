@@ -104,3 +104,13 @@ input{flex:1;min-width:180px}
 #menu.open{transform:none;visibility:visible}#menu a{padding:14px 0;font-size:1rem}
 .hero{grid-template-columns:1fr;padding-top:100px}.about{grid-template-columns:1fr}.avatar{max-width:240px}.info{grid-template-columns:1fr}
 .grid{grid-template-columns:1fr}.footer{grid-template-columns:1fr}.sec{padding:72px var(--pad)}.scroll{display:none}}
+
+.cover-stack{position:relative;width:100%;height:100%}
+.cover-stack img{position:absolute;inset:0;transition:opacity .45s ease,transform .4s}
+.cover-alt{opacity:0}
+@media (hover:hover){
+  .cover:hover .cover-alt{opacity:1}
+  .cover:hover .cover-main{opacity:0}
+}
+.cover-link:focus-visible .cover-alt{opacity:1}
+.cover-link:focus-visible .cover-main{opacity:0}
