@@ -44,6 +44,7 @@ const DEVLOGS = [
   cat: 'Development Progress',
   date: '11-09-2026',
   thumb: 'assets/images/projects/sate-life/SateLife.jpg',
+  hover: 'assets/images/projects/sate-life/SateLife.jpg',
   url: '',
   excerpt: 'Mengembangkan ulang menu pengaturan Sate Life menjadi scene fullscreen dengan sistem konfigurasi terpusat, penyimpanan otomatis, dan integrasi pengaturan grafis Sky3D.',
   body: [
@@ -127,6 +128,20 @@ function initReveal() {
 }
 
 /* ===== 3-5. PROJECTS ===== */
+function coverMedia({ src, hover, alt, url, label }) {
+  const main = img(src, alt);
+  main.classList.add('cover-main');
+  const stack = el('div', { class: 'cover-stack' }, main);
+  if (hover) {
+    const alt2 = img(hover, '');
+    alt2.classList.add('cover-alt');
+    alt2.setAttribute('aria-hidden', 'true');
+    stack.append(alt2);
+  }
+  const href = normalizeUrl(url);
+  if (!href) return stack;
+  return el('a', { class: 'cover-link', href, target: '_blank', rel: 'noopener noreferrer', 'aria-label': label }, stack);
+}
 function projectThumb(p) {
   const main = img(p.cover, 'Cover game ' + p.name);
   main.classList.add('cover-main');
@@ -198,10 +213,8 @@ function normalizeUrl(raw) {
 }
 function devlogThumb(d) {
   if (!d.thumb) return null;
-  const image = img(d.thumb, 'Thumbnail ' + d.title);
-  const href = normalizeUrl(d.url);
-  if (!href) return image;
-  return el('a', { class: 'cover-link', href, target: '_blank', rel: 'noopener noreferrer', 'aria-label': 'Buka link: ' + d.title }, image);
+  return coverMedia({ src: d.thumb, hover: d.hover, alt: 'Thumbnail ' + d.title,
+    url: d.url, label: 'Buka link: ' + d.title });
 }
 function renderDevlog(reset = true) {
   if (reset) dShown = PAGE;
