@@ -65,7 +65,27 @@ const DEVLOGS = [
     'Pengembangan ini menjadi salah satu langkah penting dalam membangun arsitektur Sate Life yang lebih terorganisir. Selain memperbaiki tampilan menu, saya juga belajar bahwa pengelolaan data, siklus hidup scene, dan komunikasi antar sistem memiliki peran besar dalam pengembangan game. Menu Settings sekarang tidak hanya menjadi tempat untuk mengubah preferensi, tetapi juga bagian dari sistem konfigurasi terpusat yang dapat dikembangkan lebih lanjut.'
   ],
   images: []
+  },
+  {
+  id: 'd2',
+  title: 'Memperbarui Tampilan Tablet',
+  project: 'sate-life',
+  cat: 'Development Progress',
+  date: '11-14-2026',
+  thumb: 'assets/images/devlog/sate-life/UI-Baru-Tablet.jpg',
+  hover: 'assets/images/devlog/sate-life/UI-Baru-Tablet.jpg',
+  url: '',
+  excerpt: 'Memperbarui tampilan tablet dalam Sate Life dengan desain yang lebih modern, dan responsif, serta menambahkan fitur baru untuk meningkatkan pengalaman pengguna.',
+  body: [
+    'Dalam pengembangan Sate Life, tablet merupakan salah satu fitur utama yang digunakan pemain untuk mengakses berbagai menu dan mengelola bisnis sate mereka. Pada tahap ini, saya melakukan pembaruan pada tampilan antarmuka tablet agar terlihat lebih modern, rapi, dan nyaman digunakan.',
+
+    'Pembaruan ini berfokus pada peningkatan visual UI, penataan elemen, serta konsistensi desain antar-menu. Tujuannya bukan sekadar membuat tampilan lebih menarik, tetapi juga meningkatkan pengalaman pemain ketika berinteraksi dengan berbagai fitur di dalam game.',
+  
+    'Dengan tampilan baru ini, tablet diharapkan dapat memberikan kesan seperti perangkat digital yang benar-benar digunakan untuk mengelola sebuah bisnis. Pembaruan ini menjadi salah satu langkah dalam meningkatkan kualitas visual dan pengalaman pengguna di Sate Life.'
+  ],
+  images: []
 }
+
 ];
 const SOCIALS = [
   { name: 'GitHub', desc: 'Explore my code', url: 'https://github.com/randymaulanaputra6-sketch?tab=repositories', icon: '⌘' },
