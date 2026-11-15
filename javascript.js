@@ -105,6 +105,27 @@ const DEVLOGS = [
     'Meskipun aplikasi ini belum memiliki logika fungsional untuk mengubah wallpaper secara dinamis, tahap ini merupakan langkah awal yang penting dalam pengembangan fitur baru. Nantinya, saya akan menambahkan logika yang memungkinkan pemain untuk memilih dan menerapkan wallpaper pilihan mereka ke tablet dalam game.'
   ],
   images: []
+},
+  {
+  id: 'd4',
+  title: 'Menambahkan Logic Untuk Aplikasi Wallpaper di Tablet',
+  project: 'sate-life',
+  cat: 'Development Progress',
+  date: '11-15-2026',
+  thumb: 'assets/images/devlog/sate-life/Wallpaper-App-Logic.png',
+  hover: 'assets/images/devlog/sate-life/Wallpaper-App-Logic-Hover.png',
+  url: 'https://youtu.be/xe952vxWH5g',
+  excerpt: 'Menambahkan Logic Aplikasi Wallpaper di tablet Sate Life, memungkinkan pemain untuk mengubah tampilan latar belakang tablet sesuai preferensi mereka.',
+  body: [
+    'Setelah menyelesaikan tahap perancangan UI/UX, kali ini saya melanjutkan pengembangan aplikasi wallpaper pada tablet Sate Life ke tahap implementasi logic. Fokus utamanya adalah membuat seluruh elemen antarmuka yang sebelumnya hanya berupa tampilan menjadi fitur yang benar-benar dapat digunakan.',
+
+    'Sistem pergantian wallpaper kini sudah berhasil diimplementasikan. Pemain dapat memilih salah satu dari 4 pilihan wallpaper yang tersedia dan menerapkannya untuk mengubah tampilan latar belakang tablet di dalam game.',
+  
+    'Selain itu, saya juga menyelesaikan integrasi antara antarmuka aplikasi dengan sistem utama tablet, sehingga perubahan wallpaper dapat langsung diterapkan pada tampilan tablet tanpa harus keluar dari aplikasi.',
+
+    'Dengan penambahan logic ini, aplikasi wallpaper kini berfungsi sepenuhnya, memberikan pemain pengalaman yang lebih interaktif dan personalisasi dalam mengelola tampilan tablet mereka di Sate Life.'
+  ],
+  images: []
 }
 
 ];
