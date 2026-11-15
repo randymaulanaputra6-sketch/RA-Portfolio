@@ -84,6 +84,27 @@ const DEVLOGS = [
     'Dengan tampilan baru ini, tablet diharapkan dapat memberikan kesan seperti perangkat digital yang benar-benar digunakan untuk mengelola sebuah bisnis. Pembaruan ini menjadi salah satu langkah dalam meningkatkan kualitas visual dan pengalaman pengguna di Sate Life.'
   ],
   images: []
+},
+  {
+  id: 'd3',
+  title: 'Mmebuat Aplikasi Wallpaper Untuk Tablet',
+  project: 'sate-life',
+  cat: 'Development Progress',
+  date: '11-15-2026',
+  thumb: 'assets/images/devlog/sate-life/UI-&-Aplikasi-Wallpaper.png',
+  hover: 'assets/images/devlog/sate-life/UI-&-Aplikasi-Wallpaper.png',
+  url: '',
+  excerpt: 'Menambahkan UI Tanpa Logic Aplikasi Wallpaper di tablet Sate Life, memungkinkan pemain untuk mengubah tampilan latar belakang tablet sesuai preferensi mereka.',
+  body: [
+    'Pada pengembangan Sate Life kali ini, saya mulai mengerjakan sebuah aplikasi wallpaper baru yang akan menjadi bagian dari sistem tablet dalam game. Aplikasi ini dirancang untuk memberikan pilihan kepada pemain dalam mengubah tampilan wallpaper tablet sesuai dengan preferensi mereka.',
+
+    'Saat ini, aplikasi menyediakan 4 pilihan wallpaper berbeda yang dapat dipilih melalui antarmuka aplikasi. Saya berusaha membuat tampilannya tetap sederhana, modern, dan konsisten dengan desain UI tablet Sate Life secara keseluruhan.',
+  
+    'Fokus utama pada tahap ini adalah membangun UI/UX, mulai dari penyusunan layout, penempatan pilihan wallpaper, hingga merancang tampilan agar mudah dipahami dan digunakan oleh pemain.',
+
+    'Meskipun aplikasi ini belum memiliki logika fungsional untuk mengubah wallpaper secara dinamis, tahap ini merupakan langkah awal yang penting dalam pengembangan fitur baru. Nantinya, saya akan menambahkan logika yang memungkinkan pemain untuk memilih dan menerapkan wallpaper pilihan mereka ke tablet dalam game.'
+  ],
+  images: []
 }
 
 ];
