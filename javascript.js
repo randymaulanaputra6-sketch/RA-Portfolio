@@ -44,7 +44,7 @@ const DEVLOGS = [
   cat: 'Development Progress',
   date: '11-09-2026',
   thumb: 'assets/images/devlog/sate-life/Setting-Menu-Baru.webp',
-  hover: 'assets/images/devlog/sate-life/Setting-Menu-Baru.webp',
+  hover: 'assets/images/devlog/sate-life/Setting-Menu-Baru-Hover.webp',
   url: '',
   excerpt: 'Mengembangkan ulang menu pengaturan Sate Life menjadi scene fullscreen dengan sistem konfigurasi terpusat, penyimpanan otomatis, dan integrasi pengaturan grafis Sky3D.',
   body: [
