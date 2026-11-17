@@ -126,6 +126,27 @@ const DEVLOGS = [
     'Dengan penambahan logic ini, aplikasi wallpaper kini berfungsi sepenuhnya, memberikan pemain pengalaman yang lebih interaktif dan personalisasi dalam mengelola tampilan tablet mereka di Sate Life.'
   ],
   images: []
+},
+  {
+  id: 'd5',
+  title: 'Inventory System & Stock Management',
+  project: 'sate-life',
+  cat: 'Programming',
+  date: '11-16-2026',
+  thumb: 'assets/images/devlog/sate-life/UI-dan-Logic-Tas.webp',
+  hover: 'assets/images/devlog/sate-life/UI-dan-Logic-Tas.webp',
+    url: '',
+    excerpt: 'Membuat Sistem dan UI Untuk Tas di tablet Sate Life, memungkinkan pemain untuk mengelola item dan inventaris mereka dengan lebih mudah.',
+  body: [
+    'Pada tahap pengembangan kali ini, saya menyelesaikan sistem inventaris beserta UI tas pada game Sate Life. Fitur ini dirancang untuk mempermudah pemain dalam mengelola persediaan bahan baku sebelum digunakan dalam aktivitas berjualan.',
+
+    'Sistem ini memiliki beberapa fungsi utama, yaitu menampilkan isi tas dan stok yang tersedia di gerobak, serta memungkinkan pemain memindahkan persediaan dari tas ke gerobak sesuai kebutuhan.',
+  
+    'Selain itu, sistem inventaris juga sudah terintegrasi dengan aplikasi pesan pada tablet. Setiap aktivitas transfer stok akan memicu notifikasi sehingga pemain dapat mengetahui perubahan persediaan secara langsung.',
+
+    'Dengan adanya sistem inventaris ini, pemain dapat lebih mudah mengatur bahan baku yang dimiliki, memastikan ketersediaan stok untuk berjualan, dan meningkatkan efisiensi dalam mengelola bisnis sate mereka di dalam game.'
+  ],
+  images: []
 }
 
 ];
