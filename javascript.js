@@ -147,6 +147,25 @@ const DEVLOGS = [
     'Dengan adanya sistem inventaris ini, pemain dapat lebih mudah mengatur bahan baku yang dimiliki, memastikan ketersediaan stok untuk berjualan, dan meningkatkan efisiensi dalam mengelola bisnis sate mereka di dalam game.'
   ],
   images: []
+},
+  {
+  id: 'd6',
+  title: 'Memperbarui Tampilan Aplikasi Finance di Tablet',
+  project: 'sate-life',
+  cat: 'Programming',
+  date: '11-16-2026',
+  thumb: 'assets/images/devlog/sate-life/UI-Baru-App-Finance.webp',
+  hover: 'assets/images/devlog/sate-life/UI-Baru-App-Finance.webp',
+    url: '',
+    excerpt: 'Memperbarui tampilan aplikasi finance di tablet Sate Life, meningkatkan pengalaman pengguna dalam mengelola keuangan.',
+  body: [
+    'Pada pembaruan kali ini, saya melakukan peningkatan pada UI aplikasi Finance di dalam game Sate Life. Fokus utama pembaruan ini adalah menciptakan tampilan yang lebih modern, rapi, dan nyaman digunakan oleh player.',
+
+    'Beberapa elemen antarmuka disesuaikan agar informasi keuangan lebih mudah dibaca dan navigasi terasa lebih intuitif. Dengan tampilan yang lebih segar, diharapkan player dapat mengakses informasi keuangan dan mengelola uang dalam game dengan lebih mudah.',
+  
+    'Pembaruan ini menjadi salah satu langkah untuk meningkatkan kualitas UI/UX sekaligus membuat pengalaman bermain Sate Life terasa lebih profesional.'
+  ],
+  images: []
 }
 
 ];
