@@ -166,6 +166,27 @@ const DEVLOGS = [
     'Pembaruan ini menjadi salah satu langkah untuk meningkatkan kualitas UI/UX sekaligus membuat pengalaman bermain Sate Life terasa lebih profesional.'
   ],
   images: []
+},
+{
+  id: 'd7',
+  title: 'Mengembangkan Sistem Player Upgrade',
+  project: 'sate-life',
+  cat: 'Development Progress',
+  date: '11-17-2026',
+  thumb: 'assets/images/devlog/sate-life/Make-Upgrade-Player-App.webp',
+  hover: 'assets/images/devlog/sate-life/Make-Upgrade-Player-App.webp',
+  url: '',
+  excerpt: 'Mengembangkan sistem Player Upgrade untuk meningkatkan kemampuan karakter dan memberikan progres perkembangan yang lebih menarik dalam Sate Life.',
+  body: [
+    'Pada tahap pengembangan kali ini, saya berhasil menyelesaikan sistem Player Upgrade di dalam game Sate Life. Fitur ini dirancang untuk memberikan kesempatan kepada player dalam meningkatkan kemampuan karakter menggunakan uang yang diperoleh dari aktivitas berjualan.',
+
+    'Sistem ini menghadirkan empat kategori peningkatan, yaitu Walk Speed, Bag Capacity, Shop Closing Time, dan Charisma. Setiap upgrade memiliki fungsi dan pengaruh tersendiri terhadap gameplay, mulai dari meningkatkan mobilitas pemain hingga memberikan peluang lebih baik dalam melayani pelanggan.',
+
+    'Selain itu, sistem pembelian telah terintegrasi dengan ekonomi permainan, sehingga setiap peningkatan membutuhkan uang yang diperoleh dari aktivitas berjualan. Seluruh progres upgrade juga terhubung dengan sistem save/load agar peningkatan yang telah dibeli tetap tersimpan.',
+
+    'Dengan selesainya fitur ini, Sate Life memiliki sistem pengembangan karakter yang lebih terstruktur dan memberikan lebih banyak alasan bagi player untuk terus mengembangkan bisnis mereka.'
+  ],
+  images: []
 }
 
 ];
