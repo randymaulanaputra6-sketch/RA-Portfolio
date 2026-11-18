@@ -187,6 +187,27 @@ const DEVLOGS = [
     'Dengan selesainya fitur ini, Sate Life memiliki sistem pengembangan karakter yang lebih terstruktur dan memberikan lebih banyak alasan bagi player untuk terus mengembangkan bisnis mereka.'
   ],
   images: []
+},
+{
+  id: 'd8',
+  title: 'Memperbarui Tampilan Aplikasi Player Upgrade',
+  project: 'sate-life',
+  cat: 'Programming',
+  date: '11-18-2026',
+  thumb: 'assets/images/devlog/sate-life/Redesain-Upgrade-Player-App.webp',
+  hover: 'assets/images/devlog/sate-life/Redesain-Upgrade-Player-App.webp',
+  url: '',
+  excerpt: 'Memperbarui tampilan aplikasi Player Upgrade dengan desain yang lebih modern, informatif, dan konsisten dengan identitas visual tablet Sate Life.',
+  body: [
+    'Pada pembaruan kali ini, saya melakukan redesign pada tampilan aplikasi Player Upgrade di dalam game Sate Life. Fokus utama perubahan ini adalah menghilangkan tampilan yang monoton dan menciptakan antarmuka yang lebih modern serta nyaman digunakan.',
+
+    'Perubahan mencakup penataan ulang layout, penggunaan kartu upgrade, pemilihan warna, serta peningkatan hierarki visual. Setiap kategori upgrade kini memiliki tampilan informasi yang lebih terstruktur, sehingga player dapat melihat level, statistik, dan biaya peningkatan dengan lebih mudah.',
+
+    'Desain baru ini juga disesuaikan dengan identitas visual aplikasi Finance yang sebelumnya telah diperbarui. Penggunaan warna navy blue, cream, dan aksen orange dipertahankan untuk menciptakan konsistensi antarmuka di dalam tablet.',
+
+    'Dengan pembaruan ini, aplikasi Player Upgrade tidak hanya memiliki tampilan yang lebih menarik, tetapi juga memberikan pengalaman pengguna yang lebih baik tanpa mengubah sistem gameplay dan mekanisme upgrade yang sudah berjalan.'
+  ],
+  images: []
 }
 
 ];
