@@ -226,6 +226,24 @@ const DEVLOGS = [
     'Dengan selesainya aplikasi ini, sistem pengembangan bisnis Sate Life semakin lengkap. Pemain kini memiliki lebih banyak kendali untuk mengembangkan usaha sate mereka secara bertahap.'
   ],
   images: []
+},
+{
+  id: 'd10',
+  title: 'Menambahkan Menu Level Select',
+  project: 'tapak-adventure',
+  cat: 'Programming',
+  date: '11-19-2026',
+  thumb: '',
+  hover: '',
+  url: '',
+  excerpt: 'Menambahkan menu Level Select untuk memudahkan pemain memilih dan memainkan level yang tersedia di Tapak Adventure.',
+  body: [
+    'Setelah cukup lama tidak mendapatkan pembaruan, pengembangan Tapak Adventure akhirnya kembali dilanjutkan. Pada update kali ini, saya mulai dengan menambahkan fitur Level Select sebagai bagian dari peningkatan pengalaman bermain.',
+    'Fitur Level Select memungkinkan pemain melihat dan memilih level yang tersedia tanpa harus selalu memulai permainan dari level pertama. Dengan adanya menu ini, navigasi antarlevel menjadi lebih praktis dan fleksibel.',
+    'Selain menambahkan fungsi pemilihan level, saya juga mengembangkan tampilan menu agar tetap sesuai dengan gaya antarmuka Tapak Adventure dan mudah digunakan oleh pemain.',
+    'Pembaruan ini menjadi salah satu langkah untuk menghidupkan kembali pengembangan Tapak Adventure sekaligus membuka peluang untuk menghadirkan lebih banyak peningkatan pada update berikutnya.'
+  ],
+  images: []
 }
 
 ];
