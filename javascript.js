@@ -208,6 +208,24 @@ const DEVLOGS = [
     'Dengan pembaruan ini, aplikasi Player Upgrade tidak hanya memiliki tampilan yang lebih menarik, tetapi juga memberikan pengalaman pengguna yang lebih baik tanpa mengubah sistem gameplay dan mekanisme upgrade yang sudah berjalan.'
   ],
   images: []
+},
+{
+  id: 'd9',
+  title: 'Mengembangkan Aplikasi Cart Upgrade',
+  project: 'sate-life',
+  cat: 'Programming',
+  date: '11-19-2026',
+  thumb: 'assets/images/devlog/sate-life/Upgrade-Gerobak-App.webp',
+  hover: 'assets/images/devlog/sate-life/Upgrade-Gerobak-App.webp',
+  url: '',
+  excerpt: 'Menyelesaikan aplikasi Cart Upgrade yang memungkinkan pemain meningkatkan kapasitas gerobak melalui sistem upgrade di dalam tablet.',
+  body: [
+    'Pengembangan aplikasi Cart Upgrade akhirnya selesai. Aplikasi ini menjadi salah satu bagian dari sistem manajemen bisnis yang tersedia melalui tablet di dalam game Sate Life.',
+    'Fitur utamanya memungkinkan pemain meningkatkan kapasitas penyimpanan gerobak melalui beberapa pilihan upgrade. Setiap peningkatan dirancang untuk memberikan ruang penyimpanan tambahan sehingga pemain dapat membawa lebih banyak persediaan.',
+    'Selain mengembangkan sistem upgrade, saya juga menyelesaikan tampilan antarmuka aplikasi agar lebih modern, konsisten dengan desain tablet, dan mudah digunakan oleh pemain.',
+    'Dengan selesainya aplikasi ini, sistem pengembangan bisnis Sate Life semakin lengkap. Pemain kini memiliki lebih banyak kendali untuk mengembangkan usaha sate mereka secara bertahap.'
+  ],
+  images: []
 }
 
 ];
