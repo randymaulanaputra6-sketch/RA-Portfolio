@@ -233,8 +233,8 @@ const DEVLOGS = [
   project: 'tapak-adventure',
   cat: 'Programming',
   date: '11-19-2026',
-  thumb: '',
-  hover: '',
+  thumb: 'assets/images/devlog/tapak-adventure/Level-Select.webp',
+  hover: 'assets/images/devlog/tapak-adventure/Level-Select.webp',
   url: '',
   excerpt: 'Menambahkan menu Level Select untuk memudahkan pemain memilih dan memainkan level yang tersedia di Tapak Adventure.',
   body: [
