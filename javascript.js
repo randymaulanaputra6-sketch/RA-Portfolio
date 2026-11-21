@@ -244,7 +244,24 @@ const DEVLOGS = [
     'Pembaruan ini menjadi salah satu langkah untuk menghidupkan kembali pengembangan Tapak Adventure sekaligus membuka peluang untuk menghadirkan lebih banyak peningkatan pada update berikutnya.'
   ],
   images: []
+},
+{
+  id: 'd11',
+  title: 'Membangun Sistem Furniture Upgrade dan Buff Pelanggan',
+  project: 'sate-life',
+  cat: 'Programming',
+  date: '11-21-2026',
+  thumb: 'assets/images/devlog/sate-life/Upgrade-Furniture-App.webp',
+  hover: 'assets/images/devlog/sate-life/Upgrade-Furniture-App.webp',
+  url: '',
+  excerpt: 'Membangun sistem Furniture Upgrade yang memungkinkan pemain membeli dan memiliki berbagai fasilitas meja secara independen.',
+  body: [
+    'Membangun sistem Furniture Upgrade yang memungkinkan pemain membeli dan memiliki berbagai fasilitas meja secara independen, mulai dari kotak tisu, kaleng kerupuk, kobokan air, hingga kotak alat makan.',
+    'Sistem ini juga mengintegrasikan mekanisme buff berdasarkan lokasi meja pelanggan, sehingga setiap fasilitas memberikan pengaruh berbeda terhadap kecepatan makan, peluang tip, kesabaran, dan karisma pelanggan. Seluruh kepemilikan fasilitas terintegrasi dengan sistem penyimpanan game.'
+  ],
+  images: []
 }
+
 
 ];
 const SOCIALS = [
