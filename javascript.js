@@ -192,7 +192,7 @@ const DEVLOGS = [
   id: 'd8',
   title: 'Memperbarui Tampilan Aplikasi Player Upgrade',
   project: 'sate-life',
-  cat: 'Programming',
+  cat: 'UI/UX',
   date: '11-18-2026',
   thumb: 'assets/images/devlog/sate-life/Redesain-Upgrade-Player-App.webp',
   hover: 'assets/images/devlog/sate-life/Redesain-Upgrade-Player-App.webp',
@@ -258,6 +258,22 @@ const DEVLOGS = [
   body: [
     'Membangun sistem Furniture Upgrade yang memungkinkan pemain membeli dan memiliki berbagai fasilitas meja secara independen, mulai dari kotak tisu, kaleng kerupuk, kobokan air, hingga kotak alat makan.',
     'Sistem ini juga mengintegrasikan mekanisme buff berdasarkan lokasi meja pelanggan, sehingga setiap fasilitas memberikan pengaruh berbeda terhadap kecepatan makan, peluang tip, kesabaran, dan karisma pelanggan. Seluruh kepemilikan fasilitas terintegrasi dengan sistem penyimpanan game.'
+  ],
+  images: []
+},
+{
+  id: 'd12',
+  title: 'Memperbarui Tampilan Taman',
+  project: 'sate-life',
+  cat: 'Development Progress',
+  date: '11-27-2026',
+  thumb: 'assets/images/devlog/sate-life/Taman-Baru.webp',
+  hover: 'assets/images/devlog/sate-life/Taman-Baru.webp',
+  url: '',
+  excerpt: 'Memperbarui tampilan taman untuk memberikan pengalaman visual yang lebih menarik kepada pemain.',
+  body: [
+    'Memperbarui tampilan taman untuk memberikan pengalaman visual yang lebih menarik kepada pemain.',
+    'Penyesuaian desain ini mencakup penambahan elemen dekoratif, perbaikan pencahayaan, dan optimasi tata letak area taman.'
   ],
   images: []
 }
